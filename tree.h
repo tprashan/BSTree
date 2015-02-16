@@ -24,3 +24,7 @@ int setLeafNode(tree_node_ptr walker, int data,tree_node_ptr node);
 
 tree_node_ptr find(BSTree tree, int data);
 int findNodeInTree(tree_node_ptr walker, int data);
+
+tree_node_ptr deleteNode(BSTree * tree, int data);
+
+void traverse(BSTree tree, void (*print_element)(int  element));
